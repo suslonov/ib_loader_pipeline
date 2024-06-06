@@ -1,0 +1,23 @@
+{
+        "Frequency": "minute",
+        "Source": {"Type": "S3",
+                "Bucket": "fr-historical-data",
+		"Path": "",
+                "Folder": "options/minute",
+                "Assets": "stocks/minute",
+                "Metadata": "options/metadata"
+        },
+	"Destination": {"Type": "File",
+		"Bucket": "fr-historical-data",
+                "Path": "~/.zipline",
+                "Folder": "options_to_ingest/minute"
+	},
+	"TimeLikeQuantopian": 1,
+	"Levels": 2,
+        "Symbols": [
+                "MRNA",
+                "MSFT",
+                "NET",
+                "NFLX"
+        ]
+}

@@ -1,0 +1,24 @@
+{
+	"Client_id": 123402,
+        "HOST": "10.0.1.153",
+        "PORT": 4002,
+	"Frequency": "minute",
+        "Destination": {"Type": "S3",
+                "Bucket": "fr-historical-data",
+                "Path": "~/tmp",
+                "Folder": "stocks/current"},
+	"Field": "TRADES",
+	"DaysToKeep": 10,
+	"Symbols": [
+		"UVXY",
+		"SPY",
+		"TLT",
+		"QQQ",
+		"IEF",
+		"GLD",
+		"SLV",
+		"SHY",
+		"XLI",
+		"XLU"
+	]
+}

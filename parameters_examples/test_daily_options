@@ -1,0 +1,22 @@
+{
+	"Client_id": 123402,
+	"HOST": "10.0.1.153",
+	"PORT": 4002,
+        "Frequency": "minute",
+        "Destination": {"Type": "File",
+                "Bucket": "fr-historical-data",
+                "Path": "~/tmp",
+                "Folder": "options/minute",
+		"Assets": "stocks/minute",
+		"Metadata": "options/metadata"
+	},
+	"DepthDays": 5,
+	"Field": "TRADES",
+	"Direction": ["C"],
+	"StepsFromAtTheMoney": 20,
+	"Symbols": [
+		"AAPL",
+		"AMZN",
+		"TSLA"
+	]
+}

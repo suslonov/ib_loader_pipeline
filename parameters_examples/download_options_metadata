@@ -1,0 +1,13 @@
+{
+        "Source": {"Type": "S3",
+                "Bucket": "fr-historical-data",
+		"Path": "",
+                "Metadata": "options/metadata"
+        },
+	"Destination": {"Type": "File",
+		"Bucket": "fr-historical-data",
+		"Path": "~/.zipline",
+		"Metadata": "options_to_ingest/metadata"
+	},
+	"Symbols": []
+}

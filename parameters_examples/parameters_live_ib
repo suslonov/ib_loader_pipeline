@@ -1,0 +1,29 @@
+{
+        "parameters": {
+                "CUBIC_SPLINE_DERIVATIVE_THRESHOLD": 0.02,
+                "GOOD_PRICE_FACTOR": 1.0,
+                "RENEW_PERIOD": 6,
+                "DAY_TREND_DURATION": 10,
+                "MIN_TERM": 2,
+                "MAX_TERM": 8,
+                "STOP_LOSS": 0.15,
+		"STOP_LOSS_INITIAL": 0.1,
+		"MANUAL_STOP_LOSS": 0.05,
+		"STOP_COUNT": 2,
+                "MAX_OUTMARKET_COUNT": 10,
+                "CUMULATIVE_STOP_LOSS": 0.3,
+                "BUY_LIMIT_FACTOR1": 0.1,
+                "BUY_LIMIT_FACTOR2": 0.1,
+		"TREND_FOR_S": 15,
+                "TREND_FOR_EXIT": 3 
+        },
+	"account": "U3440316",
+	"capital": 1000,
+	"ib_client": 123100,
+	"remote": "aws_ib_live",
+	"port": 4001,
+	"symbols": ["AAPL", "AMZN", "BA", "BABA", "BIDU", "C", "CGC", "CRIS", "DIS", "FB",
+		"GLD", "GM", "INO", "META", "MNKD", "MRNA", "MSFT", "NET", "NFLX", "NNOX",
+		"NVAX", "NVDA", "SLV", "SPY", "TSLA", "VERU"]
+
+}

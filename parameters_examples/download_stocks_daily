@@ -1,0 +1,19 @@
+{
+	"Frequency": "daily",
+	"Source": {"Type": "S3",
+		"Bucket": "fr-historical-data",
+		"Path": "~/tmp",
+		"Folder": "stocks/daily"
+	},
+	"Destination": {"Type": "File",
+		"Bucket": "fr-historical-data",
+		"Path": "~/.zipline/data_to_ingest",
+		"Folder": "daily"
+	},
+	"TimeLikeQuantopian": 1,
+	"Levels": 1,
+	"Symbols": [
+		"UVXY",
+		"SVXY"
+		]
+}
